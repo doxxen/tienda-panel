@@ -9,7 +9,7 @@ import { ModalPlugin } from 'bootstrap-vue'
 
 
 Vue.config.productionTip = false;
-Vue.prototype.$url = 'tcp://0.tcp.sa.ngrok.io:15480';
+Vue.prototype.$url = 'tcp.sa.ngrok.io:10001/tienda';
 Vue.prototype.$token = localStorage.getItem('token'); 
 Vue.prototype.$ganancia = 30;
 
